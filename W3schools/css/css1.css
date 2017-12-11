@@ -1,0 +1,29 @@
+* { box-sizing: border-box; }
+
+@font-face {
+  font-family:'Archivo Black', sans-serif;
+  src: url(https://fonts.googleapis.com/css?family=Archivo+Black" rel="stylesheet)
+}
+
+header {
+  position: relative;
+  height: 80px;
+}
+
+header a {
+  position: absolute;
+  top: 20px;
+  margin-left: 10px;
+  font-family: 'Archivo Black', sans-serif;
+  font-size: 37px;
+  text-decoration: none;
+}
+
+header p {
+  position: absolute;
+  top: 40px;
+  right: 0px;
+  margin: 0px 25px 0px 0px;
+  letter-spacing: 3px;
+  
+}
