@@ -8,13 +8,13 @@
 header {
   position: relative;
   height: 80px;
+  font-family: 'Archivo Black', sans-serif;
 }
 
 header a {
   position: absolute;
   top: 20px;
   margin-left: 10px;
-  font-family: 'Archivo Black', sans-serif;
   font-size: 37px;
   text-decoration: none;
 }
