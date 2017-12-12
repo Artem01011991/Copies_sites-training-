@@ -1,4 +1,4 @@
-* { box-sizing: border-box; }
+* { box-sizing: border-box; margin: 0; padding: 0; font-family: 'Archivo Black', sans-serif;}
 
 @font-face {
   font-family:'Archivo Black', sans-serif;
@@ -7,8 +7,7 @@
 
 header {
   position: relative;
-  height: 80px;
-  font-family: 'Archivo Black', sans-serif;
+  height: 70px;
 }
 
 header a {
@@ -17,6 +16,7 @@ header a {
   margin-left: 10px;
   font-size: 37px;
   text-decoration: none;
+  color: #555555;
 }
 
 header p {
@@ -27,3 +27,43 @@ header p {
   letter-spacing: 3px;
   
 }
+
+nav {
+  display: flex;
+  color: #fff;
+  background-color: #4CAF50;
+  height: 57px;
+  box-shadow: 0 1px 5px grey;
+  text-align: center;
+}
+
+.nav-site-ref {
+  display: inherit;
+  margin-right: auto;
+}
+
+.nav-site-ref > a {
+  width: 200px;
+  margin: auto;
+  margin-left: 10px;
+  font-style: normal;
+  letter-spacing: 3px;
+  text-align: justify;
+}
+
+.nav-site-ref > a::after {
+  content: '\e809';
+}
+
+.nav-lang-search {
+  display: inherit;
+  height: 100%;
+}
+
+.nav-lang-search a {
+  margin: auto;
+  width: 80px;
+  font-size: 30px;
+}
+
+.nav-lang-search i: 
